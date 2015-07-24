@@ -29,6 +29,13 @@
         <developerConnection>scm:svn:https://primefaces.googlecode.com/svn/primefaces/trunk</developerConnection>
         <url>http://primefaces.googlecode.com/svn/primefaces/trunk</url>
     </scm>
+    <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://repo:8080/maven/content/repositories/thirdparty/</url>
+        </repository>
+    </distributionManagement>
     <pluginRepositories>
         <pluginRepository>
             <id>primeFaces_repository</id>
